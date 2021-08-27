@@ -31,6 +31,6 @@ public class User {
 
     @GetMapping("/find/{id}")
     public UserModel getUserById(@PathVariable Integer id){
-       return userServices.findById(id);
+        return userServices.findById(id);
     }
 }
